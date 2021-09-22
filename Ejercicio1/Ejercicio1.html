@@ -1,0 +1,39 @@
+
+<script>
+
+const invertirManual = arreglo => {
+
+  let longitudDelArreglo = arreglo.length;
+  
+  for (let x = 0; x < longitudDelArreglo / 2; x++) {
+    
+    let temporal = arreglo[x];
+   
+    let indiceContrario = longitudDelArreglo - x - 1;
+    
+    arreglo[x] = arreglo[indiceContrario];
+  
+    arreglo[indiceContrario] = temporal;
+  }
+
+
+};
+
+const valores = ["n","2","&","a","l","9","$","q","47","i","a","j","b","z","%","8"];
+// Imprimir arreglo original
+console.log("Original: ", valores);
+// Invertir con método manual
+invertirManual(valores);
+
+valores[2] = "&";
+valores[6]= "$";
+valores [1] = "z";
+valores[14]= "%";
+valores[9]= "9";
+var removed = valores.splice(7, 0,'i');
+var removed = valores.splice(11, 1,);
+var removed = valores.splice(13, 1,'2');
+
+console.log("Invertido manualmente: ", valores);
+</script>
+

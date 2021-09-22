@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <form action="Tabla.php" method="post">
+        <div class="elem-group">
+          <label for="name">Name.</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Luis Garcia" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">E-mail.</label>
+          <input type="email" id="email" name="visitor_email" placeholder="lcgr220@gmail.com" required>
+        </div>
+        <div class="elem-group">
+            <label for="phone">Phone Number.</label>
+            <input type="tel" id="phone" name="visitor_phone" placeholder="849-351-2812" required>
+          </div>
+       
+    
+        <div class="elem-group">
+          <label for="message">Write the Message</label>
+          <textarea id="message" name="visitor_message" placeholder="Hey, What's up?" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+</body>
+</html>
