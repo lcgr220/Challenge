@@ -6,12 +6,10 @@
     display: table;
   }
   .parallax {
-    /* The image used */
+ 
     background-image: url("fondo.jpeg");
   
-    /* Set a specific height */
-
-    /* Create the parallax scrolling effect */
+  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +35,7 @@ box-shadow: 1px 3px 20px fuchsia;
     text-align: center;
     float: left;
    
-    width: 20%; /* The width is 20%, by default */
+    width: 20%; 
     min-width: 20%;
   }
   
@@ -58,7 +56,7 @@ box-shadow: 1px 3px 20px fuchsia;
     border-style: solid;
     border-width: 1px;
     height: 230px;
-    width: 20%; /* The width is 60%, by default */
+    width: 20%; 
     min-width: 20%;
   }
   .main1-second {
@@ -78,7 +76,7 @@ box-shadow: 1px 3px 20px fuchsia;
   border-style: solid;
   border-width: 1px;
   height: 230px;
-    width: 20%; /* The width is 60%, by default */
+    width: 20%; 
     min-width: 20%;
   }
  
@@ -100,7 +98,7 @@ box-shadow: 1px 3px 20px fuchsia;
   border-style: solid;
   border-width: 1px;
   height: 230px;
-    width: 20%; /* The width is 20%, by default */
+    width: 20%;
     min-width: 20%;
   }
 
@@ -121,7 +119,7 @@ box-shadow: 1px 3px 20px fuchsia;
 border-style: solid;
 border-width: 1px;
 height: 230px;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%; 
   min-width: 20%;
   }
   
@@ -141,7 +139,7 @@ border-style: solid;
 border-width: 1px;
 box-shadow: 1px 3px 20px green;
 height: 230px;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%; 
   min-width: 20%;
   }
   .main1 {
@@ -160,7 +158,7 @@ border-style: solid;
 box-shadow: 1px 3px 20px blue;
 border-width: 1px;
 height: 230px;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%; 
   min-width: 20%;
   }
  
@@ -181,7 +179,7 @@ height: 230px;
 border-style: solid;
 border-width: 1px;
 height: 230px;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%; 
   min-width: 15%;
   }
   #btn-main-second{
@@ -313,14 +311,14 @@ height: 230px;
     padding-top: 200px;
   }
   
-  /* Use a media query to add a break point at 800px: */
+  
 
   @media screen and (max-width:500px){
     .parallax{
       height: 2400px;
     }
     .left, .main, .main1, .right, .left-second, .main-second, .main1-second, .right-second {
-   /* The width is 100%, when the viewport is 800px or smaller */
+  
   max-width: 80%;
    min-width: 75%;
    margin-left: 0px;
@@ -361,7 +359,7 @@ height: 230px;
       height: 1000px;
     }
     .left, .main, .main1, .right, .left-second, .main-second, .main1-second, .right-second {
-   /* The width is 100%, when the viewport is 800px or smaller */
+  
    
    min-width: 15%;
    max-width: 20%;
